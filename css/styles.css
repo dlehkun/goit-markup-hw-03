@@ -1,0 +1,204 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #4d5ae5;
+  line-height: 1.6667;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-link-second-part {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #2e2f42;
+  line-height: 1.6667;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.page-nav {
+  list-style-type: none;
+}
+
+.page-nav .link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #2e2f42;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+
+.page-nav .link-studio:hover {
+  color: #404bbf;
+}
+
+.page-nav .link-studio:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-list .contact {
+  font-size: 16px;
+  color: #434455;
+  text-decoration: none;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.contact-list .contact:hover,
+.contact-list .contact:focus {
+  color: #404bbf;
+}
+
+.main-page {
+  background-color: #2e2f42;
+}
+
+.page-title {
+  font-size: 56px;
+  color: #ffffff;
+  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.order-service {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.order-service:hover,
+.order-service:focus {
+  background-color: #404bbf;
+}
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.advantages-list .name-advantages {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-list .explain-advantages {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.member {
+  background-color: #f4f4fd;
+}
+
+.member-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.member-list {
+  list-style-type: none;
+}
+
+.member-card {
+  background-color: #ffffff;
+}
+
+.member-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.member-text {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.example-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.example-list {
+  list-style-type: none;
+}
+
+.example-card {
+  background-color: #e7e9fc;
+}
+
+.example-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.example-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.bottom-page {
+  background-color: #2e2f42;
+}
+
+.bottom-page .logo-link-second-part {
+  color: #f4f4fd;
+}
+
+.bottom-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
