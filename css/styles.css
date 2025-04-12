@@ -157,7 +157,7 @@ address {
   padding: 24px 0;
 }
 
-.main-page {
+.section-hero {
   background-color: #2e2f42;
 }
 
@@ -168,6 +168,17 @@ address {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  display: block;
+  margin: 188px 472px 48px 472px;
+  width: 496px;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 
 .order-service {
@@ -178,11 +189,19 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  margin: 48px 635px 188px 636px;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .order-service:hover,
 .order-service:focus {
   background-color: #404bbf;
+}
+
+.our-advantages {
 }
 
 .advantages-list {
