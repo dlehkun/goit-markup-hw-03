@@ -157,10 +157,6 @@ address {
   padding: 24px 0;
 }
 
-.section-hero {
-  background-color: #2e2f42;
-}
-
 .page-title {
   font-size: 56px;
   color: #ffffff;
@@ -169,7 +165,10 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   display: block;
-  margin: 188px 472px 48px 472px;
+  margin-top: 188px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
   width: 496px;
 }
 
@@ -202,10 +201,19 @@ address {
 }
 
 .our-advantages {
+  display: block;
+  margin: 120px auto;
 }
 
 .advantages-list {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.advantage-item {
+  display: block;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-list .name-advantages {
@@ -216,13 +224,25 @@ address {
   color: #2e2f42;
 }
 
+.name-advantages {
+  display: block;
+  margin-bottom: 8px;
+}
+
 .advantages-list .explain-advantages {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
+.member-section {
+  background-color: #f4f4fd;
+  display: block;
+  margin-bottom: 120px;
+}
+
 .member {
   background-color: #f4f4fd;
+  display: flex;
 }
 
 .member-title {
@@ -232,14 +252,26 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  display: block;
+  margin-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 72px;
 }
 
 .member-list {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .member-card {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  display: block;
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 120;
 }
 
 .member-name {
