@@ -165,11 +165,15 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   display: block;
-  margin-top: 188px;
-  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+
+.section-hero {
+  padding: 188px 0;
+  background-color: #2e2f42;
 }
 
 .hero-section {
@@ -190,9 +194,12 @@ address {
   cursor: pointer;
   display: block;
   margin-bottom: 188px;
-  width: 169px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 
 .order-service:hover,
@@ -200,9 +207,8 @@ address {
   background-color: #404bbf;
 }
 
-.container-order-service {
-  display: flex;
-  align-items: center;
+.section-advantages {
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -219,7 +225,6 @@ address {
 }
 .our-advantages {
   display: block;
-  margin: 120px auto;
 }
 
 .advantages-list {
