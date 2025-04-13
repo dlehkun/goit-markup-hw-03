@@ -177,8 +177,6 @@ address {
 }
 
 .hero-section {
-  background-color: #2e2f42;
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
@@ -193,7 +191,6 @@ address {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: block;
-  margin-bottom: 188px;
   margin-right: auto;
   margin-left: auto;
   min-width: 169px;
@@ -259,12 +256,11 @@ address {
 .member-section {
   background-color: #f4f4fd;
   display: block;
-  margin-bottom: 120px;
 }
 
 .member {
   background-color: #f4f4fd;
-  display: flex;
+  padding: 120px;
 }
 
 .member-title {
@@ -275,7 +271,6 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   display: block;
-  margin-top: 120px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 72px;
@@ -291,14 +286,11 @@ address {
 .member-card {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  display: block;
   width: calc((100% - 72px) / 4);
-  margin-bottom: 120px;
 }
 
 .member-content {
-  display: block;
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 
 .member-name {
@@ -319,6 +311,10 @@ address {
   text-align: center;
 }
 
+.example-section {
+  padding: 120px 0;
+}
+
 .example-title {
   font-size: 36px;
   line-height: 1.11;
@@ -327,7 +323,7 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   display: block;
-  margin: 120px auto 72px auto;
+  margin-bottom: 72px;
 }
 
 .example-list {
@@ -339,16 +335,15 @@ address {
 }
 
 .example-card {
+  width: calc((100 - 48px) / 3);
+}
+
+.example-content {
+  padding: 32px 16px;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   box-sizing: border-box;
-  max-width: 360px;
-}
-
-.example-content {
-  display: block;
-  margin: 32px auto 32px 16px;
 }
 
 .example-name {
@@ -358,6 +353,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: block;
+  margin-bottom: 8px;
 }
 
 .example-text {
@@ -366,9 +362,14 @@ address {
   letter-spacing: 0.02em;
 }
 
+.bottom-page {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
 .page-bottom {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .logo-link-bottom {
@@ -381,7 +382,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
