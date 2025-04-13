@@ -177,7 +177,6 @@ address {
 }
 
 .hero-section {
-  flex-direction: column;
   align-items: center;
   gap: 48px;
 }
@@ -363,11 +362,6 @@ address {
 }
 
 .bottom-page {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-
-.page-bottom {
   background-color: #2e2f42;
   padding: 100px 0;
 }
